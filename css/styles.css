@@ -6,14 +6,24 @@
     --fourth-color:#212121;
     --fifth-color:#FFFFFF;
     --sixth-color:rgba(255, 255, 255, 0.6);
+    --active-button-color:#188CE8;
     --background-footer:#2F303A;
     --background-team:#F5F4FA;
+
    }
 body{
     font-family:"roboto",sans-serif;
     color:var(--main-color);
     background-color:var(--fifth-color);
     letter-spacing: 0.03em;}
+.h1,.h2,.h3,.p,.ul{
+    margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0,auto;
+    padding: 0,15px;
+}
 /*header styles*/
     .logo{
         color:var(--second-color);
@@ -79,8 +89,8 @@ body{
         font-family: inherit;
         cursor: pointer;
 }
-.hero-button:hover{color: var(--third-color)}
-.hero-button:focus{color: var(--third-color)}
+.hero-button:hover{background-color: var(--active-button-color)}
+.hero-button:focus{background-color: var(--active-button-color)}
     /* about */
 .hidden-title{
     display: none;
