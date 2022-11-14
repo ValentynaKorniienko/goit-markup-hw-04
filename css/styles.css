@@ -34,11 +34,14 @@ ul {
     padding: 0;
 }
 /*header styles*/
+.header{
+border-bottom: 1px solid var(--second-border-color);
+}
+
 .header>.container {
     display: flex;
     align-items: center;
    
-    border-bottom: 1px solid var(--second-border-color);
 }
 .nav{
     display: flex;
@@ -169,10 +172,7 @@ ul {
 .about-item-icon:not(:first-child){
     margin-left: 30px;
 }
-.about-icon{
-    width: 100%;
-                 
-}
+
 .about {
     padding-left: 15px;
     padding-top: 94px;
@@ -229,6 +229,7 @@ ul {
     padding-bottom: 94px;
     background-color:var(--background-team);
 }
+
 .team-title{
    margin-bottom: 50px;
         font-weight: 700;
@@ -248,22 +249,23 @@ ul {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.team-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .team-name{
-    margin-top: 30px;
-        
         font-weight: 500;
         font-size: 16px;
         line-height:calc(19/16);
         color:var(--fourth-color)}
 .team-position{
     margin-top: 10px;
-    padding-bottom: 30px;
-    font-size: 16px;
+     font-size: 16px;
     line-height:calc(19/16);
 }
 .social-list{
-    padding-bottom: 30px;
-    display: flex;
+       margin-top: 16px;
+       display: flex;
         align-items: center;
         justify-content: center;
 }
